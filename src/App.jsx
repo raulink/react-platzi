@@ -8,6 +8,7 @@ function App() {
 
   return (
     <>
+      <TodoItem/>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -30,6 +31,16 @@ function App() {
       </p>
     </>
   )
+}
+
+function TodoItem(){
+  return (
+    <li>
+      <span>Y</span><p> tarea</p> X
+    </li>
+    
+
+  );// Elementos de js
 }
 
 export default App
